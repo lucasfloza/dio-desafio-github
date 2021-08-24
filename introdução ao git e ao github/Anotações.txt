@@ -1,1 +1,27 @@
-dnfaiascnasniodasiodsao
+Clonar repositório:
+
+Entrar numa pasta com o git bash e efetuar o seguinte comando:
+
+git clone https:://LiNK
+
+
+Adicionar novos elementos ao repositório:
+
+1° preciso adicionar no nosso controle de versão local:
+(forma de adc todos os novos arquivos)
+
+git add .
+
+
+2° agora precisamos salvar as alterações e deixar prontas para entrar na nuvem do github com o git commit:
+
+git commit 
+//é sempre importante colocar comentários ao acrescentar algo ao repositório
+(-m “inclusão do arquivo x para alteração na estética”)
+
+git commit -m “inclusão do arquivo x para alteração na estética”
+
+3°e por fim, é necessário enviar para a nuvem com o git push:
+//será enviado na área main
+
+ git push origin main
